@@ -1,0 +1,131 @@
+.banner{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+
+    background-color: #945C16;
+    background-image: url('./lines.png');
+}
+
+.banner .left{
+    width: 50%;
+    height: 100%;
+
+    z-index: 1;
+}
+
+.banner .right{
+    width: 50%;
+    height: 100%;
+}
+
+.banner .left .top{
+    width: 100%;
+    height: 25%;
+}
+
+.banner .left .mid{
+    width: 100%;
+    height: 50%;
+}
+
+.banner .left .bot{
+    width: 100%;
+    height: 25%;
+}
+
+.banner .right{
+    background-image: url('./fundo.png');
+    background-position: center;
+    background-size: cover;
+    
+    z-index: 2;
+}
+
+.banner .left .top,
+.banner .left .mid,
+.banner .left .bot{
+    margin: 0px 0px 0px 100px;
+}
+
+.banner .left .top .logo{
+    width: 80px;
+    height: 60px;
+
+    background-color: #F0D7B6;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .left .mid h1{
+    font-size: 3em;
+    color: #fff;
+}
+
+.banner .left .mid .emojis{
+    margin: 20px 0px 0px 0px;
+    height: 55px;
+    width: 405px;
+
+    background-image: url('./emojis.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.banner .left .bot .box{
+    width: 300px;
+    height: 160px;
+
+    color: #945C16;
+    background-color: #F0D7B6;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.banner .left .bot .box .line1,
+.banner .left .bot .box .line2{
+    padding: 10px 0px 0px 30px;
+}
+
+.banner .left .bot .box .line1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 0.8em;
+}
+
+.banner .left .bot .box .line1 svg{
+    margin-left: 70px;
+}
+
+.banner .left .bot .box .line2{
+    font-weight: medium;
+}
+
+.banner .right{
+    padding: 0px 100px 0px 0px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.banner .right .menu{
+    width: 80px;
+    height: 60px;
+
+    background-color: #945C16;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
